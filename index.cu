@@ -3,6 +3,8 @@ github: https://github.com/Daydream0929/cuda_index
 blog: https://daydream0929.github.io/深入浅出cuda索引.html
 */
 
+#include <stdio.h>
+
 __global__ void test()
 {
     const int bx = blockIdx.x;
